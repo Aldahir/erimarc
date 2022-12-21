@@ -51,7 +51,7 @@
                 <div class="icon fs-2 mb-3">
                     <i class="fas fa-charging-station fa-2x"></i>
                 </div>
-                <h3 class="display-3 fw-normal number">103</h3>
+                <h3 class="display-3 fw-normal charging-number">103</h3>
                 <div class="content">
                     <p class="my-4 fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>

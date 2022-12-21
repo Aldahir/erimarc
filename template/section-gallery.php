@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12">
                 <div class="image">
-                    <img src="https://dummyimage.com/4:6x800/fcf5e3/000000" alt="" srcset="https://dummyimage.com/880x480/fcf5e3/000000" sizes="(max-width:100%) 1080px">
+                    <img src="https://dummyimage.com/880x480/fcf5e3/000000" alt="" class="img-fluid">
                     <!-- <img src="/aldair/image-exemplo/?s=880x480&c=fcf5e3" alt="" srcset="http://127.0.0.1/aldair/image-exemplo/?s=880x480&c=fcf5e3" class="img-fluid" sizes="(max-width:100%) 1080px"> -->
                 </div>
             </div>
