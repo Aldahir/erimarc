@@ -1,0 +1,557 @@
+/*
+Theme Name: IMFC Consulting
+Author: Aldair Cajicua
+Author URI: https://wa.me/244926561603
+Description: IMFC Consulting é um tema responsivo com layout de página inicial baseado em grade de 3 colunas. Este tema está sobrecarregado com muitos recursos, incluindo um incrível controle deslizante responsivo, vários layouts de página, locais configuráveis da barra lateral, widgets de rodapé e painel de administração fácil de usar. Este tema pode ser atualizado para uma versão profissional para habilitar mais recursos. 
+Version: 1.0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: finance, money, dinheiro, grid, table, two-columns
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@keyframes scrollDown {
+    0% {
+        top: -89.16x
+    }
+
+    20% {
+        top: -69.16px
+    }
+
+    40% {
+        top: -49.16px
+    }
+
+    60% {
+        top: -29.16px
+    }
+
+    80% {
+        top: -19.16px
+    }
+
+    100% {
+        top: 0px
+    }
+}
+
+*{
+	font-family: 'Poppins', sans-serif !important;
+}
+
+header {
+	background-color: rgb(0 0 0 / 60%);
+}
+
+a {
+	letter-spacing: .1px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #525252;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#4b3560;
+	fill:#4b3560;
+}
+
+.cajicua-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+.h-aldair{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #352446;
+    /* background-color: #4b3560; */
+    animation: scrollDown .5s ease-out;
+}
+
+#scroll-to-top:hover{
+    opacity: 1 !important;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll-to-top a{
+    color:white
+}
+.cajicua-menu .menu-principal-container > ul > li > a,
+.cajicua-menu .menu-principal-container ul li.menu-item-has-children:after{
+    text-align: center;
+    color: white !important;
+}
+
+.menu > .menu-item > a:hover,
+.cajicua-menu > .menu-principal-container> ul li a:hover {
+    color: #c1aa8b !important;
+}
+
+/*.cajicua-menu .widget-container .menu-principal-container ul li .sub-menu {
+    top: 130px;
+}*/
+
+.cajicua-menu .menu-principal-container ul li.menu-item-has-children:after,
+ul li.menu-item-has-children:after  {
+    content:"\f107";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 500;
+}
+
+.cajicua-menu > .menu-principal-container > ul >li >.sub-menu >.menu-item >a {
+    color: #4b3560;
+}
+
+.cajicua-menu .menu-principal-container ul li .sub-menu .menu-item a:hover {
+    color: #c1aa8b;
+}
+
+#menu-principal-1 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.menu-principal-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.menu-principal-container ul, .elementor-icon-list-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+
+footer {
+    background-color: #f2f2f2;
+}
+.menu .menu-item a:hover {
+    color: #4b3560;
+}
+ul.sub-menu {
+    display: none;
+}
+
+ul li.menu-item-has-children:hover > ul.sub-menu {
+	display: block;
+	background-color: white;
+	border-radius: 10px;
+	width:auto;
+	position:absolute;    z-index: 9999;
+	padding:0; margin:0;
+}
+
+ul.sub-menu li{
+	display: block;
+	position: relative;
+	margin-right: 0 !important;
+}
+
+ul.sub-menu li:first-child a{
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sub-menu li:last-child a{
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sub-menu li a{
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	color:#4b3560;
+	padding: 9px 12px;
+    font-size: 13px;
+}
+
+.sub-menu li a:hover{
+	background-color: #ededed;
+}
+
+.menu-item a {
+	padding: 3px 0;
+	letter-spacing: .1px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #7a7a7a;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.menu-item, .menu-item:not(:last-child) {
+    margin-right: 18px;
+    line-height: normal;
+    list-style: none;
+}
+
+span.address-text {
+    color: #54595f;
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+}
+
+span#scroll-to-top.active {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    cursor: pointer;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#scroll-to-top {
+    background-color: #4b3560;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    min-width: 40px;
+    min-height: 40px;
+    color: #fff;
+    font-size: 1.2em;
+    z-index: 200;
+    border: 1px solid rgba(255,255,255,.3);
+    visibility: hidden;
+    opacity: 0;
+    padding: 10px 18.41px;
+    pointer-events: none;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+section.cajicua-principal {
+	width: 100vw;
+	height: 100vh;
+	background-color: #0c0c0c;
+}
+
+.cajicua-off-body{
+	background-color: #2c1239;
+	color: white;
+}
+
+.cajicua-principal {
+    position: relative;
+    top: 0;
+}
+
+main#main {
+    margin-top: 100vh;
+}
+
+.main {
+    position: absolute;
+    top: 205px;
+}
+
+.background-overlay {
+	position: absolute;
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+    top: -90px;
+    z-index: -1;
+    background-blend-mode: color;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li.elementor-icon-list-item.elementor-inline-item {
+    margin: auto 8px;
+}
+
+ul.elementor-icon-list-items.elementor-inline-items {
+    justify-content: flex-end;
+}
+
+span.elementor-icon-list-icon i {
+    color: #636363;
+}
+
+span.elementor-icon-list-text {
+    color: #4b3560;
+    font-weight: 700;
+}
+.top {
+	color: #fff;
+    font-family: "Poppins",Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+
+.headling-title{
+	color: #3e3e3e;
+    font-size: 12px;
+    font-weight: 300;
+	text-align: center;
+}
+
+.heading-title-main {
+    color: #4b3560;
+    font-family: "Poppins",
+    Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading-default {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.atr {
+    background-color: rgb(55 58 71 / 90%);
+    display: none;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 998;
+    pointer-events: auto;
+    transition-duration: .4s;
+}
+
+.dialog-search-content {
+    opacity: 1;
+    width: 50%;
+    max-width: 650px;
+    min-width: 290px;
+    background-color: #fff;
+    position: relative;
+    z-index: 5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.atr .cajicua-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+input#search-field {
+    border-radius: 0;
+    visibility: visible;
+    font-size: 1em;
+    font-style: italic;
+    border-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeec;
+    padding-left: 20px;
+    padding-right: 50px;
+    -webkit-appearance: none;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 28px;
+    text-transform: none;
+    color: #8f8f8f;
+}
+
+form.search-field {
+    height: 60px;
+    position: relative;
+}
+
+.dialog-search-header {
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 700;
+    position: relative;
+    z-index: 10;
+    -webkit-box-shadow: 0 -3px 15px 6px rgb(0 0 0 / 3%);
+    box-shadow: 0 -3px 15px 6px rgb(0 0 0 / 3%);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+span.dialog-search-title {
+    flex-grow: 1;
+    text-transform: uppercase;
+}
+
+form.search-field button {
+    overflow: hidden;
+    color: rgb(0 0 0) !important;
+    background: rgba(0, 0, 0, 0) !important;
+    border-radius: 50%;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    border: 0;
+}
+
+span.dialog-search-close-icon {
+    cursor: pointer;
+    font-weight: 700;
+    height: 50px;
+    width: 50px;
+}
+
+.icone-topo {
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 95px;
+}
+
+.icone-topo svg {
+    width: 85%;
+}
+
+.b-2 {
+    border-style: solid;
+    border-color: #bbb;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin: 10px 10px 10px 10px;
+}
+
+.heading-title {
+    color: #4b4b4b;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.heading-title-main a {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #4b3560;
+}
+.size-default:after {
+    border: 2px solid #f5b901;
+    width: 22%;
+    display: block;
+    height: 1px;
+    content: "";
+    margin: 20px 0;
+}
+
+.cart-content a {
+    display: block;font-size: 0.85em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.section-title .cajicua-container {
+    margin: 9em auto;
+}
+
+.elementor-social-icons-wrapper span svg {
+    width: 3em;
+    margin-right: 0.5em;
+}
+
+.elementor-social-icons-wrapper span:last-child {
+    margin-right: 0;
+}
+
+.elementor-social-icons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-light {
+	background-color:#f3f3f3;	
+}
+
+.section-title .cajicua-container {
+    margin: 9em auto;
+}
+
+.section-video .cajicua-container {
+    position: relative;
+    height: 450px;
+}
+
+.section-video .cajicua-container .t-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 5em;
+    height: 5em;
+    color: white;
+}
+
+.section-video .cajicua-container .t-icon svg {
+    width: 5em;    height: 5em
+}
+
+.entry a img{
+    border-style: solid;
+    border-width: 0px 0px 15px 15px;
+    border-color: #fed507;
+}
+
+.image-overlay {
+    width: 100%;
+}
+
+
+.btn-imfc {
+    color: #ffffff;
+    background-color: #4b3560;
+    border-color: #4b3560;
+}
+
+@media screen and (max-width:600px) {
+	.cajicua-search{display:none}
+    .cajicua-cropped {
+        width: unset !important;
+        margin-left: 5vw;
+    }
+    .c-text {
+        font-size: 4vw !important;
+    }
+    .c-title {
+        font-size:10vw !important;
+        line-height: 1;
+        /* margin: 5vw; */
+    }
+
+    .c-wrapper {
+        margin: auto 5vw;
+    }
+
+    .site-content {
+        padding: 0;
+    }
+
+    .section-card {
+        width: 100vw
+    }
+}

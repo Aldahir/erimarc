@@ -2,8 +2,8 @@
     --blackRed: #4d1716;
     --darkRed: #c05352;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@property --num {
+
+/* @property --num {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
@@ -17,7 +17,7 @@
 .bg-gradient-amc .views-number::after {content: counter(num);}
 .bg-gradient-amc:hover{
     --num: 100;
-}
+} */
 .bg-gradient-amc{
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, .6)), url('https://i.pinimg.com/originals/c2/cc/e2/c2cce2e74a52dfe01fa778aab618a897.jpg') ;
@@ -148,6 +148,21 @@ html, body {
 
 .navbar-brand img {
     width: 160px;
+}
+.nav-link.text-secondary {transition: all 700ms ease-in-out;}
+.nav-link.text-secondary:hover {color: white!important;opacity: 1!important; transition: all 700ms ease-in-out;}
+
+.set > .p-3 {
+    border: 2px transparent;
+    transform: scaleX(1);
+    transition: all 200ms ease-in-out;
+}
+.set > .p-3:hover {
+    border-style:solid;
+    border-color:#dee2e6;
+    transform: scale(1.1);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    
 }
 
 @media screen and (max-width: 390px){

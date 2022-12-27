@@ -7,7 +7,7 @@
 
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1550.573841161178!2d13.48683378272187!3d-8.880310696656927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51fef015c329d7%3A0xf8eb06a384e0eb9d!2sCentralidade%20de%20Cacuaco!5e0!3m2!1spt-PT!2sao!4v1666605308202!5m2!1spt-PT!2sao" width="600" style="max-width: 100%!important" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <!-- <img src="/aldair/image-exemplo/?s=600x400&c=ced4da" class="img-fluid"> -->
+                
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-6">

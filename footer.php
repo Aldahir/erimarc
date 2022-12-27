@@ -1,56 +1,54 @@
 <div id="footer" class="bg-dark pt-5">
-    <div class="container">
+    <div class="container mb-4">
         <div class="row text-center text-lg-start">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-3 col-md-4 col-sm-12">
                 <a class="footer_logo" href="javascript:;">
-                    <img src="<?php echo URL_BASE ?>assets/img/logo_white.svg" alt="footerLogo" style="width:21rem;">
+                    <img src="<?php echo URL_BASE ?>assets/img/logo_white.svg" alt="footerLogo" class="img-fluid">
                 </a>
                 <!-- <form id="EmForm" method="get" action="">
                     <div class="f01_lSerach"><input type="text" name="em" id="em" placeholder="Email for Newsletter"><a href="javascript:;" class="submit_fe">Subscribe</a></div><input type="hidden" name="token" value="67f1f88b501680d3614c0d4da79ab248_30d462355d9ff52aad9a2b6706f2e647">
                 </form> -->
             </div>
 
-            <div class="col-lg-2 col-md-8 col-sm-12 mt-lg-2 mt-sm-4">
+            <div class="col-lg-3 col-md-8 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
                     <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-decoration-none title">ABOUT US</a>
-                    <a href="" class="nav-link text-white">About Us</a>
-                    <a href="" class="nav-link text-white">Millestones</a>
-                    <a href="" class="nav-link text-white">CSR</a>
+                    <a href="" class="nav-link text-white">Sobre nós</a>
+                    <a href="" class="nav-link text-white">Serviços</a>
+                    <a href="" class="nav-link text-white">Soluções</a>
                 </li>
             </div>
 
-            <div class="col-lg-2 col-md-8 col-sm-12 mt-lg-2 mt-sm-4">
+            <div class="col-lg-3 col-md-8 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
-                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-decoration-none title">SERVICES</a>
-                    <a href="" class="nav-link text-white">Critical Power</a>
-                    <a href="" class="nav-link text-white">Renewable Energy</a>
-                    <a href="" class="nav-link text-white">Cloud Infrastructure</a>
+                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Contactos</a>
+                    <a href="" class="nav-link text-white">Av. 21 de janeiro, Bº Morro Bento, Rua do Instituto Metropolitano, Luanda, Angola</a>
+                    <a href="tel:+244928085691" class="nav-link text-white"><i class="fa fa-phone" style="transform:rotate(90deg);"></i>&nbsp; (+244) 928 085 691</a>
+                    <a href="mailto:comercial@erimarc.co.ao" class="nav-link text-white"><i class="fa fa-envelope"></i></i>&nbsp; comercial@erimarc.co.ao</a>
                 </li>
             </div>
-
-            <div class="col-lg-2 col-md-8 col-sm-12 mt-lg-2 mt-sm-4">
+            <div class="col-lg-3 col-md-8 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
-                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-decoration-none title">SUPPORT</a>
-                    <a href="" class="nav-link text-white">Services</a>
-                    <a href="" class="nav-link text-white">Solar Configurator</a>
-                    <a href="" class="nav-link text-white">Warranty Claims</a>
-                </li>
-            </div>
-            <div class="col-lg-2 col-md-8 col-sm-12 mt-lg-2 mt-sm-4">
-                <li class="list-unstyled">
-                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-decoration-none title">CONTACT</a>
-                    <a href="" class="nav-link text-white">Offices</a>
-                    <a href="" class="nav-link text-white">Enquiry</a>
-                    <a href="" class="nav-link text-white">Support team</a>
+                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Horários de atendimento</a>
+                    <a class="nav-link text-white">Segunda à terça-feira<br> 08:00-17:00</a>
+                    <a class="nav-link text-white">Sábado e feriados<br> 08:00 - 12:00</a>
                 </li>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <p style="font-size:.7rem" class="my-4 small text-center text-white">Copyright © <?php echo date("Y") ?> - <?php echo title ?></p>
+    <div class="container-fluid border-top border-secondary">
+        <div class="mt-4 pb-4 row">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <p style="font-size:.7rem" class="m-0 small text-center text-lg-start text-secondary">Copyright © <?php echo date("Y") ?> - <?php echo title ?></p>
+                <div style="font-size:.7rem">
+                    <a href="<?php echo URL_BASE ?>politica-privacidade/" class="small text-center text-lg-start text-secondary">Política de Privacidade</a> | <a href="<?php echo URL_BASE ?>termo-de-uso/" class="small text-center text-lg-start text-secondary">Termo de serviço</a>
+                </div>
+            </div>
+            <div class="align-items-center col-lg-6 col-sm-12 col-md-6 d-flex justify-content-lg-end justify-content-center text-center text-lg-end">
+                <a href="" class="nav-link text-secondary fa-2x fab fa-facebook"></a>
+                <a href="" class="nav-link text-secondary fa-2x fab fa-instagram"></a>
+                <a href="" class="nav-link text-secondary fa-2x fab fa-twitter"></a>
             </div>
         </div>
     </div>
@@ -63,7 +61,7 @@
                 </div>
                 <div class="botoes align-content-around align-items-md-baseline d-flex justify-content-between m-0 p-0 text-center w-100" style="width: 100%;">
                     <a class="bg-dark-red accept" href="javascript:void(0);">Aceitar</a>
-                    <a class="bg-gray" href="javascript:void(0);">Não obrigado</a>
+                    <a class="bg-gray deny" href="javascript:void(0);">Não obrigado</a>
                 </div>
             </div>
         </div>
@@ -78,6 +76,9 @@
     </div>
 </div>
 
+<script>
+
+</script>
 
 <!-- <script src="http://127.0.0.1/aldair/repositorio/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

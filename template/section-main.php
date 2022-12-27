@@ -11,14 +11,14 @@
         <p>First Slide Image</p>
       </div>
       <!-- <img src="http://127.0.0.1/aldair/image-exemplo/?s=1920x1080&c=00db1e" class="d-block w-100" alt="dummyimage 1080p f8db1e"> -->
-      <img src="https://dummyimage.com/16:9x1080/00db1e/ffffff" class="d-block w-100" alt="dummyimage 1080p ff0000">
+      <img src="https://www.secis.pt/public/uploads/a3e3dbb4-a54c-4645-a6a1-660872a35a1d.png" class="d-block w-100" alt="dummyimage 1080p ff0000">
     </div>
     <div class="carousel-item">
       <div class="carousel-caption d-md-block d-none text-start" style="bottom: 190px;">
         <h3 class="display-3 heading-title">What about Luanda? Uhm...</h3>
         <p>Luanda my city, my love!</p>
       </div>
-      <img src="https://dummyimage.com/16:9x1080/ff0000/ffffff" class="d-block w-100" alt="dummyimage 1080p ff0000">
+      <img src="https://raynov.ma/wp-content/uploads/2020/09/3395677-scaled.jpg" class="d-block w-100" alt="dummyimage 1080p ff0000">
       <!-- <img src="http://127.0.0.1/aldair/image-exemplo/?s=1920x1080&c=ff0000" class="d-block w-100" alt="dummyimage 1080p ff0000"> -->
     </div>
     <div class="carousel-item">
@@ -26,7 +26,7 @@
         <h3 class="display-3 heading-title">Los Angeles</h3>
         <p>Great one, always so much fun!</p>
       </div>
-      <img src="https://dummyimage.com/16:9x1080/00c8fa/000000" class="d-block w-100" alt="dummyimage 1080p 00c8fa">
+      <img src="https://www.3gnt.net/sites/default/files/2_6.jpg" class="d-block w-100" alt="dummyimage 1080p 00c8fa">
       <!-- <img src="http://127.0.0.1/aldair/image-exemplo/?s=1920x1080&c=00c8fa" class="d-block w-100" alt="dummyimage 1080p 00c8fa"> -->
     </div>
   </div>
