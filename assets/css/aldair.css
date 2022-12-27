@@ -165,6 +165,16 @@ html, body {
     
 }
 
+.cajicua-container img {
+    filter: grayscale(1);
+    transition: all .8s ease-in
+}
+
+.cajicua-container img:hover {
+    filter: none;
+    transition: all .8s ease-out
+}
+
 @media screen and (max-width: 390px){
     .cookeis {
         left:0;
