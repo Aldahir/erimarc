@@ -1,13 +1,13 @@
 <section class="section-title my-5" id="section-clientes">
-    <div class="container p-0">
+    <!-- <div class="container p-0">
         <div class="align-content-center justify-content-center row">
             <div class="container col-lg-12">
                 <div class="heading-default text-center">
-                    <h2 class="heading-title-main display-4 fw-bolder">Orgulhamo-nos em tê-los<br>como n clientes</h2>
+                    <h2 class="heading-title-main display-5 fw-bolder">Orgulhamo-nos em tê-los<br>como nossos clientes</h2>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <section class="section-clients mb-5" id="clientes">
@@ -16,16 +16,16 @@
 
             <div class="row p-0">
                 <div class="col-lg-3 col-sm-6 col-md-4">
-                    <div class="cajicua-container"><img src="https://dummyimage.com/3:2x800/cb9a00/000000" alt="" srcset="" class="d-block w-100 rounded-3"></div>
+                    <div class="align-items-center cajicua-container d-flex justify-content-center"><img src="<?php echo URL_BASE ?>assets/img/clientes/sodiam.jpg" alt="" style="width: 250px;" class="d-block rounded-0"></div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-4">
-                    <div class="cajicua-container"><img src="https://dummyimage.com/3:2x800/3ca22b/000000" alt="" srcset="" class="d-block w-100 rounded-3"></div>
+                    <div class="align-items-center cajicua-container d-flex justify-content-center"><img src="<?php echo URL_BASE ?>assets/img/clientes/sistec.jpg" alt="" style="width: 250px;" class="d-block rounded-0"></div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-4">
-                    <div class="cajicua-container"><img src="https://dummyimage.com/3:2x800/fcf5e3/000000" alt="" srcset="" class="d-block w-100 rounded-3"></div>
+                    <div class="align-items-center cajicua-container d-flex justify-content-center"><img src="<?php echo URL_BASE ?>assets/img/clientes/noble-group.jpg" alt="" style="width: 250px;" class="d-block rounded-0"></div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-4">
-                    <div class="cajicua-container"><img src="https://dummyimage.com/3:2x800/cb9a00/000000" alt="" srcset="" class="d-block w-100 rounded-3"></div>
+                    <div class="align-items-center cajicua-container d-flex justify-content-center"><img src="<?php echo URL_BASE ?>assets/img/clientes/inacom.jpg" alt="" style="width: 250px;" class="d-block rounded-0"></div>
                 </div>
             </div>
 
