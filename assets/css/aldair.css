@@ -21,7 +21,6 @@
 .bg-gradient-amc{
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, .6)), url('https://i.pinimg.com/originals/c2/cc/e2/c2cce2e74a52dfe01fa778aab618a897.jpg') ;
-    /* background-image: linear-gradient(transparent, rgb(0 0 0 / 30%)), url('/aldair/image-exemplo/?s=1920x1080&c=43a047') ; */
 }
 html, body {
     font-family: 'Poppins', 'Open sans', 'ubuntu', sans-serif !important;
@@ -83,6 +82,7 @@ html, body {
     height: 3em;
     left: 1rem;
     bottom: 1rem;
+    z-index: 99999;
     transition: background 1s ease-in-out;
 }
 .whatsappme__button:hover{
@@ -133,15 +133,17 @@ html, body {
     position: relative;
     line-height: 1.2em;
 }
-.navbar-nav .nav-item:hover:after {
+.navbar-nav .nav-item:hover:after{
     transform: scaleX(1);
     border-color: var(--darkRed);
 }
+.navbar-nav .nav-item.active:after{
+    transform:scale(1) ;
+    border-bottom: .2rem solid var(--darkRed)!important;
+}
 .navbar-nav .nav-item .nav-link {
     color: black;
-    /* font-weight: lighter !important; */
     font-size: 0.9rem;
-    /* text-transform: uppercase; */
     letter-spacing: -0.05rem;
     transition: all .6s ease-in-out;
 }

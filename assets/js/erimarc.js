@@ -77,4 +77,13 @@ window.addEventListener('scroll', (e)=>{
 for (let i=0; i < set.length; i++){
     set[i].addEventListener('mouseenter', (e)=>{ set[i].children[0].classList.add("shadow","border", "border-2"); });
     //set[i].addEventListener('mouseout', (e)=>{ set[i].children[0].classList.remove("shadow","border", "border-2"); });
-};*/
+};
+
+(function(){
+    new Progressive({
+        el: '#my-body',
+        lazyClass: 'lazy',
+        removePreview: true,
+        scale: true
+    }).fire();
+})();*/
