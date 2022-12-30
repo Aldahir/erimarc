@@ -1,7 +1,7 @@
 <div id="footer" class="bg-dark pt-5">
     <div class="container mb-4">
         <div class="row text-center text-lg-start">
-            <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <a class="footer_logo" href="javascript:;">
                     <img src="<?php echo URL_BASE ?>assets/img/logo_white.svg" alt="footerLogo" class="img-fluid">
                 </a>
@@ -10,16 +10,16 @@
                 </form> -->
             </div>
 
-            <div class="col-lg-3 col-md-8 col-sm-12 mt-lg-2 mt-sm-4 small">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
                     <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-decoration-none title">ABOUT US</a>
                     <a href="" class="nav-link text-white">Sobre nós</a>
-                    <a href="" class="nav-link text-white">Serviços</a>
+                    <a href="<?php echo URL_BASE ?>servicos" class="nav-link text-white">Serviços</a>
                     <a href="" class="nav-link text-white">Soluções</a>
                 </li>
             </div>
 
-            <div class="col-lg-3 col-md-8 col-sm-12 mt-lg-2 mt-sm-4 small">
+            <div class="col-lg-3 col-md-12 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
                     <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Contactos</a>
                     <a href="" class="nav-link text-white">Av. 21 de janeiro, Bº Morro Bento, Rua do Instituto Metropolitano, Luanda, Angola</a>
@@ -27,7 +27,7 @@
                     <a href="mailto:comercial@erimarc.co.ao" class="nav-link text-white"><i class="fa fa-envelope"></i></i>&nbsp; comercial@erimarc.co.ao</a>
                 </li>
             </div>
-            <div class="col-lg-3 col-md-8 col-sm-12 mt-lg-2 mt-sm-4 small">
+            <div class="col-lg-3 col-md-12 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
                     <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Horários de atendimento</a>
                     <a class="nav-link text-white">Segunda à terça-feira<br> 08:00-17:00</a>
@@ -39,16 +39,16 @@
 
     <div class="container-fluid border-top border-secondary">
         <div class="mt-4 pb-4 row">
-            <div class="col-lg-6 col-sm-12 col-md-6">
+            <div class="col-lg-6 col-sm-12 col-md-12">
                 <p style="font-size:.7rem" class="m-0 small text-center text-lg-start text-secondary">Copyright © <?php echo date("Y") ?> - <?php echo title ?></p>
-                <div style="font-size:.7rem">
+                <div style="font-size:.7rem" class="text-center text-lg-start">
                     <a href="<?php echo URL_BASE ?>politica-privacidade/" class="small text-center text-lg-start text-secondary">Política de Privacidade</a> | <a href="<?php echo URL_BASE ?>termo-de-uso/" class="small text-center text-lg-start text-secondary">Termo de serviço</a>
                 </div>
             </div>
-            <div class="align-items-center col-lg-6 col-sm-12 col-md-6 d-flex justify-content-lg-end justify-content-center text-center text-lg-end">
+            <div class="align-items-center col-lg-6 col-sm-12 col-md-12 d-flex justify-content-lg-end justify-content-center text-center text-lg-end">
                 <a href="" class="nav-link text-secondary fa-2x fab fa-facebook"></a>
                 <a href="" class="nav-link text-secondary fa-2x fab fa-instagram"></a>
-                <a href="" class="nav-link text-secondary fa-2x fab fa-twitter"></a>
+                <a href="" class="nav-link text-secondary fa-2x fab fa-linkedin"></a>
             </div>
         </div>
     </div>
@@ -75,10 +75,6 @@
         </a>
     </div>
 </div>
-
-<script>
-
-</script>
 
 <!-- <script src="http://127.0.0.1/aldair/repositorio/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

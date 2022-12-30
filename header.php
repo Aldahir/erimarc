@@ -38,7 +38,7 @@ session_start();
 					<ul class="navbar-nav">
 						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>" class="nav-link active" aria-current="page">Início</a></li>
 						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>sobre-nos/" class="nav-link">Sobre nós</a></li>
-						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>services" class="nav-link">Serviços</a></li>
+						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>servicos" class="nav-link">Serviços</a></li>
 						<li class="nav-item"><a href="<?php echo URL_BASE ?>solutions" class="nav-link">Soluções</a></li>
 						<li class="nav-item ms-lg-3 m-0"><a href="<?php echo URL_BASE ?>contactos" class="nav-link">Contactos</a></li>
 					</ul>
