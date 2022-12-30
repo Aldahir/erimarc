@@ -1,13 +1,14 @@
 <?php include('../header.php') ?>
 
-<div class="wrapper m-5">
+<section class="bg-image-alternate mb-5 py-5" style="background-image: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, .6)), url( https://dummyimage.com/1080x720/ffeaaa/ffffff);background-position: center;background-size: cover;">
     <div class="container">
-        <div class="my-5">
-            <!-- <h2 class="heading-title-main text-capitalize display-4 fw-bolder"><?php echo explode('/', $_SERVER['REQUEST_URI'])[2] ?></h2> -->
-            <h2 class="heading-title-main text-capitalize display-4 fw-bolder">Quem somos</h2>
+        <div class="p-5">
+            <h2 class="heading-title-main text-white display-4 text-center fw-bolder">Quem somos</h2>
         </div>
     </div>
+</section>
 
+<div class="wrapper m-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-sm-12 col-md-4">
@@ -81,5 +82,9 @@
     </div>
 </div>
 <?php include('../template/section-energy.php') ?>
+
+<script>
+    document.querySelectorAll("#menu .navbar-nav .nav-item")[1].classList.add('active');
+</script>
 
 <?php include('../footer.php') ?>

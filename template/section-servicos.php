@@ -1,6 +1,6 @@
-<div class="container-fluid my-5 p-0 pt-lg-4 px-lg-5">
+<div class="container-fluid my-5 pt-lg-4">
     <div class="row text-black text-center">
-        <div class="col-12 mb-5 col-lg-12 col-sm-12 col-md-12">
+        <div class="mb-5 col-lg-12 col-sm-12 col-md-12">
             <h2 class="display-4 fw-bolder" style="letter-spacing: -1px;">O que fazemos</h2>
             <p class='mt-3 fs'>Soluções direcionadas para o seu negócio físico ou digital.</p>
         </div>
@@ -10,7 +10,6 @@
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
             <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <!-- <div class="align-items-end d-flex" style="height: 350px;background-image: url(http://127.0.0.1/aldair/image-exemplo/?s=240x800&c=ffe9aa);background-position: center;background-size: cover;"> -->
                 <div class="text-center" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Fornecimento / Instalação de UPS</h2>
@@ -25,7 +24,6 @@
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
             <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <!-- <div class="align-items-end d-flex" style="height: 350px;background-image: url(http://127.0.0.1/aldair/image-exemplo/?s=240x800&c=ffe9aa);background-position: center;background-size: cover;"> -->
                 <div class="text-center" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Manutenção de UPS</h2>
@@ -40,7 +38,6 @@
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
             <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <!-- <div class="align-items-end d-flex" style="height: 350px;background-image: url(http://127.0.0.1/aldair/image-exemplo/?s=240x800&c=ffe9aa);background-position: center;background-size: cover;"> -->
                 <div class="text-center" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Monitoramento de baterias</h2>
@@ -55,7 +52,6 @@
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
             <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <!-- <div class="align-items-end d-flex" style="height: 350px;background-image: url(http://127.0.0.1/aldair/image-exemplo/?s=240x800&c=ffe9aa);background-position: center;background-size: cover;"> -->
                 <div class="text-center" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Serviço de baterias</h2>
@@ -69,7 +65,7 @@
         </div>
 
         <div class="controls d-flex justify-content-center mt-5">
-            <a href="" class="btn bg-dark-red rounded-0 p-3">Ver todos</a>
+            <a href="<?php echo URL_BASE ?>servicos" class="btn bg-dark-red rounded-0 p-3">Ver todos</a>
         </div>
     </div>
 </div>

@@ -10,7 +10,7 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem doloremque culpa, eum numquam vel impedit consequatur totam voluptatibus hic. Nobis, sed! Iste, eius mollitia ab cumque deleniti at in doloremque.
                     </p>
 
-                    <a href="<?php echo URL_BASE ?>gallery/" class="btn bg-dark-red p-3 rounded-0">Ver mais</a>
+                    <a href="<?php echo URL_BASE ?>galeria/" class="btn bg-dark-red p-3 rounded-0">Ver mais</a>
                 </div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12">

@@ -6,7 +6,7 @@
                 <p class="my-4">
                     Possuímos um forte expertise e comprometimento com inovação, oferecemos aos nossos clientes soluções pioneiras e eficientes para ambientes domésticos, corporativos, data centers e aplicações de chão de fábrica.
                 </p>
-                <a class="btn btn-animation btn-primary bg-dark-red text-white fw-bold fw-normal py-3 rounded-0" href="https://api.whatsapp.com/send?phone=244928023607">
+                <a class="btn btn-animation btn-primary bg-dark-red text-white fw-bold fw-normal py-3 rounded-0" href="https://api.whatsapp.com/send?phone=244926561603">
                     <span class="ms-1">Contate-nos agora</span>
                 </a>
             </div>
