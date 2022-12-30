@@ -1,203 +1,109 @@
-<?php !defined('URL_BASE') ? define('URL_BASE', "http://127.0.0.1/erimarc/admin") : null; ?>
-<div class="topo" id="topo">
-    <header>
-        <div class="cp-logo">
-            <a href="<?php echo URL_BASE ?>">
-                <img src="https://dummyimage.com/200x60/fb8c00/ffffff" alt="Logotipo cPonto">
-            </a>
-        </div>
-        <div class="menu-topo">
-            <ul>
-                <li><a href="javascript:void(0);" id="">Ver página</a></li>
-                <li><a href="javascript:void(0);" id="">Ver página</a></li>
-                <li><a href="javascript:void(0);" id="">Ver página</a></li>
-                <li><a href="javascript:void(0);" id="">Ver página</a></li>
-            </ul>
-        </div>
-    </header>
-</div>
+<?php 
+!defined('URL_BASE') ? define('URL_BASE', "https://erimarc.co.ao/teste/admin") : null; 
+// !defined('URL_BASE') ? define('URL_BASE', "http://127.0.0.1/erimarc/admin") : null; 
+?>
+<!DOCTYPE html>
+<html lang="pt">
 
-<div class="container">
-    <aside>
-        <ul class="sidebar-menu">
-            <span>Cabeçalho</span>
-            <div class="collapse">
-                <li><a href="javascript:void(0);" id="refresh">adicionar partes</a></li>
-                <li><a href="javascript:void(0);" id="">Paginas</a></li>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>cPonto</title>
+   <link rel="stylesheet" href="<?php echo URL_BASE ?>/dist/css/cponto.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+   <div class="container">
+      <aside>
+         <ul class="sidebar-menu">
+            <li class="item active">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/dashboard.svg" alt="Icone para páginas" srcset=""></span>
+               <a href="javascript:void(0);" id="dashboard">Dashboard</a>
+            </li>
+
+            <li class="item" data-target="#pages">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/window.svg" alt="Icone para páginas" srcset=""></span>
+               <a>Páginas</a>
+               <span class="seta"><img src="dist/img/chevron_bottom.svg" alt="Seta para baixo" srcset=""></span>
+            </li>
+            <div class="collapse hide" id="pages">
+               <li><a href="javascript:void(0);" id="newPage">Adicionar página</a></li>
+               <li><a href="javascript:void(0);" id="pages">Todas as páginas</a></li>
             </div>
 
-            <span>Temas</span>
-            <div class="collapse">
-                <li><a href="javascript:void(0);" id="">Os meus temas</a></li>
-                <!-- <li><a href="javascript:void(0);" id=""></a></li> -->
-                <li><a href="javascript:void(0);" id="">Galeria</a></li>
+            <li class="item" data-target="#artigos">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/window.svg" alt="Icone para páginas" srcset=""></span>
+               <a>Artigos</a>
+               <span class="seta"><img src="dist/img/chevron_bottom.svg" alt="Seta para baixo" srcset=""></span>
+            </li>
+            <div class="collapse hide" id="artigos">
+               <li><a href="javascript:void(0);" id="newPage">Adicionar artigo</a></li>
+               <li><a href="javascript:void(0);" id="pages">Meus artigos</a></li>
             </div>
 
-        </ul>
-    </aside>
+            <li class="item" data-target="#biblioteca">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/briefing.svg" alt="Icone para páginas" srcset=""></span>
+               <a>Biblioteca</a>
+               <span class="seta"><img src="dist/img/chevron_bottom.svg" alt="Seta para baixo" srcset=""></span>
+            </li>
+            <div class="collapse hide" id="biblioteca">
+               <li><a href="javascript:void(0);" id="newPage">Minha galeria</a></li>
+               <li><a href="javascript:void(0);" id="pages">Carregar arquivo</a></li>
+            </div>
 
-    <main>
-        <iframe src="" class="mypage" frameborder="0"></iframe>
-    </main>
-</div>
+            <li class="item" data-target="#modelos">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/gallery.svg" alt="Icone para páginas" srcset=""></span>
+               <a>Modelos</a>
+               <span class="seta"><img src="dist/img/chevron_bottom.svg" alt="Seta para baixo" srcset=""></span>
+            </li>
+            <div class="collapse hide" id="modelos">
+               <li><a href="javascript:void(0);" id="">Os meus temas</a></li>
+               <li><a href="javascript:void(0);" id="">Galeria</a></li>
+               <li><a href="javascript:void(0);" id="">Gestor de menus</a></li>
+            </div>
 
-<style>
-    * {
-        color: rgb(95 95 95);
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12pt;
-    }
+            <li class="item" data-target="#tools">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/accept.svg" alt="Icone para páginas" srcset=""></span>
+               <a>Ferramentas</a>
+               <span class="seta"><img src="dist/img/chevron_bottom.svg" alt="Seta para baixo" srcset=""></span>
+            </li>
+            <div class="collapse hide" id="tools">
+               <li><a href="javascript:void(0);" id="">cP Carrocel Slider</a></li>
+               <li class="badge-content"><a href="javascript:void(0);" id="cpeditor">cP Editor</a> <span class="badge">Novo</span></li>
+               <li><a href="javascript:void(0);" id="myform">My form</a></li>
+            </div>
 
-    a {
-        text-decoration: none;
-    }
+            <li class="item" data-target="#options">
+               <span style="display: flex;opacity: .5;align-items: center;justify-content:center"><img src="dist/img/notification.svg" alt="Icone para páginas" srcset=""></span>
+               <a>Opçōes</a>
+               <span class="seta"><img src="dist/img/chevron_bottom.svg" alt="Seta para baixo" srcset=""></span>
+            </li>
+            <div class="collapse hide" id="options">
+               <li><a href="javascript:void(0);" id="">Os meus temas</a></li>
+               <li><a href="javascript:void(0);" id="">Galeria</a></li>
+               <li><a href="javascript:void(0);" id="">Gestor de menus</a></li>
+            </div>
 
-    #topo header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+            <li class="item">
+               <span style="display: flex;opacity: .5;align-items: center;"><img src="dist/img/bull.svg" style="width: 8px;" alt="Icone para páginas" srcset=""></span>
+               <a href="javascript:viewItem(URL_BASE+'app/views/preview.html');" id="">Mercado cPonto</a>
+            </li>
 
-    .sidebar-menu,
-    html,
-    body,
-    ul {
-        padding: 0;
-        margin: 0;
-    }
+            <li class="item badge-content">
+               <span style="display: flex;opacity: .5;align-items: center;">
+                  <img src="dist/img/plugin.svg" alt="Icone para páginas" srcset="">
+               </span>
+               <a href="javascript:void(0);" id="">Plugins</a>
+               <span class="badge">Brevemente</span>
+            </li>
+         </ul>
+      </aside>
 
-    .menu-topo ul {
-        display: flex;
-        flex-direction: row;
-    }
+      <main></main>
+   </div>
+   <script src="<?php echo URL_BASE ?>/dist/js/cponto.js"></script>
+</body>
 
-    .menu-topo ul li {
-        margin-left: .6em;
-        margin-right: .6em;
-    }
-
-    .sidebar-menu {
-        list-style: none;
-    }
-
-    .sidebar-menu li a {
-        display: block;
-        padding: 0.3rem .5rem;
-    }
-
-    .sidebar-menu span:first-child {
-        margin-top: 0;
-        border-top-left-radius: 0.2rem;
-        border-top-right-radius: 0.2rem;
-    }
-
-    .sidebar-menu span:last-child {
-        margin-bottom: 0;
-        border-bottom-left-radius: 0.2rem;
-        border-bottom-right-radius: 0.2rem;
-    }
-
-    .sidebar-menu span {
-        cursor: default;
-        font-weight: bold;
-        display: block;
-        position: relative;
-        padding: 10px 0 10px 10px;
-        background-color: #f2f2f2;
-        /* border: 1px solid #e8e8e8; */
-    }
-
-    .sidebar-menu span:before {
-        content: "\2039";
-        width: 15px;
-        display: flex;
-        height: 15px;
-        position: absolute;
-        right: 10px;
-        transform: rotate(-90deg);
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        top: 12px;
-        transition: all 1s ease-in-out;
-    }
-
-    .collapse {
-        display: none;
-    }
-
-    aside {
-        width: 20%;
-        padding: 1rem;
-    }
-
-    .spinner {
-        position: relative;
-        margin: 0 auto;
-        width: 80px;
-        height: 80px;
-        opacity: 0.7;
-        display: inline-block;
-    }
-
-    .spinner div {
-        position: absolute;
-        display: block;
-        margin: 8px;
-        width: 64px;
-        height: 64px;
-        border: solid 8px;
-        border-radius: 50%;
-        border-color: orange transparent transparent transparent;
-        animation: spin 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
-    }
-
-    .spinner div:nth-child(1) {
-        animation-delay: -.45s;
-    }
-
-    .spinner div:nth-child(2) {
-        animation-delay: -.3s;
-    }
-
-    .spinner div:nth-child(3) {
-        animation-delay: -.15s;
-    }
-
-    .container {
-        display: flex;
-    }
-
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-</style>
-<script>
-    var loading = '<div class="spinner"><div></div><div></div><div></div></div>'
-    let m = document.querySelectorAll('.sidebar-menu span');
-
-    m.forEach(e => {
-        e.addEventListener("click", (i)=> {
-            let x = window.getComputedStyle(i.currentTarget, "::before").content
-            console.log(x);
-
-        });
-    });
-
-    // let m = 
-    document.getElementById("refresh").addEventListener('click', async function() {
-        document.querySelector('.mypage').parentNode.innerHTML += (loading);
-        /*await fetch('<?php echo URL_BASE ?>/app/views/page.php').then(r => r.text).then(r => {
-            document.querySelector('.mypage').setAttribute('src', '<?php echo URL_BASE ?>/app/views/preview.html');
-        });*/
-    })
-</script>
+</html>

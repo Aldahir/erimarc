@@ -59,6 +59,7 @@
 
             $html .= "\t<body>\n";
             $html .= "\t\t". $content ."\n";
+            $html .= "\t\t<img src=\"https://dummyimage.com/16:9x4048/cbf02a/fffff\" style=\"width:100%\" />\n";
             $html .= "\t</body>\n";
 
             if( $script_on_bottom == true ):
