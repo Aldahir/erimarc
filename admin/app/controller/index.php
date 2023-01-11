@@ -1,15 +1,30 @@
 <?php
+    require '../model/Conexao.php';
+    require '../model/cPonto.php';
+    require '../model/Usuario.php';
+    $conexao = new Conexao();
+    $usuario = new Usuario($conexao->getConnection());
+    $cponto = new cPonto($conexao->getConnection());
 
-    namespace app\controller;
-    use app\model\cPonto;
+    switch ($_REQUEST['role']) {
+        case 'newpart':
+            var_dump($cponto->ler_todos());
+            break;
 
-    switch ($_SERVER['REQUEST_URI']) {
-        case '/newpart':
-            cPonto::save();
+        case 'getUsers':
+            $usuario->ler_todos();
+            break;
+
+        case 'generatePreview':
+            $html = "<h2>Kiss my ass</h2>";
+            $cponto->setTitulo("Aldair");
+            $cponto->setConteudo($html);
+            $res = $cponto->render_page(0,0) == true ? json_encode(["message"=>"Gerado com sucesso"]) : json_encode(["message"=>"Erro no funcionamento"]);
+            print_r($res);
             break;
         
         default:
             http_response_code(404);
-            require __DIR__ . 'app/views/404.php';
+            require '../views/404.php';
             break;
     }

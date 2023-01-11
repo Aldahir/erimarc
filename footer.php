@@ -31,7 +31,7 @@
                 <li class="list-unstyled">
                     <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Horários de atendimento</a>
                     <a class="nav-link text-white">Segunda à terça-feira<br> 08:00-17:00</a>
-                    <a class="nav-link text-white">Sábado e feriados<br> 08:00 - 12:00</a>
+                    <!-- <a class="nav-link text-white">Sábado e feriados<br> 08:00 - 12:00</a> -->
                 </li>
             </div>
         </div>

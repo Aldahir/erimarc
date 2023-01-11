@@ -11,7 +11,7 @@
 <div class="wrapper m-5">
     <div class="container">
         <div class="my-5">
-            <p class="fs-4">Nossos técnicos estão disponíveis 24 horas por dia, nos sete dias da semana para fornecer suporte de UPS para todos os sistemas UPS. Mesmo se você não tiver um contrato, ficaremos felizes em ajudar.</p>
+            <p class="fs-5">Nossos técnicos estão disponíveis 24 horas por dia, nos sete dias da semana para fornecer suporte de UPS para todos os sistemas UPS. Mesmo se você não tiver um contrato, ficaremos felizes em ajudar.</p>
         </div>
 
         <div class="row">
@@ -46,8 +46,8 @@
                     <h4 class="fs-6 fw-bolder heading-title-main mb-0 text-start">E-mail</h4>
                     <small class="small">
                         <a class="nav-link small p-0 pt-2 text-black-50" target="_blank" href="mailto:comercial@erimarc.co.ao">comercial@erimarc.co.ao</a>
-                        <a class="nav-link small p-0 text-black-50" target="_blank" href="mailto:vanda.manuel@erimarc.co.ao">vanda.manuel@erimarc.co.ao</a>
-                        <a class="nav-link small p-0 text-black-50" target="_blank" href="mailto:carla.ferreira@erimarc.co.ao">carla.ferreira@erimarc.co.ao</a>
+                        <a class="nav-link small p-0 text-black-50" target="_blank" href="mailto:erimarc@erimarc.co.ao">erimarc@erimarc.co.ao</a>
+                        <!-- <a class="nav-link small p-0 text-black-50" target="_blank" href="mailto:carla.ferreira@erimarc.co.ao">carla.ferreira@erimarc.co.ao</a> -->
                     </small>
                 </div>
             </div>
@@ -62,10 +62,10 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-lg-5 mt-2">
             <div class="bg-dark-red col-lg-6 col-md-6 col-sm-12 mb-4 mb-lg-0">
                 <p class="m-0 mb-4 fs-5 text-white p-lg-5 p-3" style="line-height:2">
-                    Quer agendar uma conversa sem compromisso ou emitir alguma opinião sobre nossa perspectiva do mundo corporativo? A <?php echo title ?> atua em todo a capital nacional, com maior relevância e sede em Luanda. Preencha o formulário abaixo e aguarde nosso breve contato. Será um prazer interagir com você!
+                    Quer agendar uma conversa sem compromisso ou emitir alguma opinião sobre nossa perspectiva do mundo corporativo? A <?php echo title ?> atua em todo a capital nacional, com maior relevância e sede em Luanda. Preencha o formulário abaixo e aguarde nosso breve contacto. <br>Será um prazer interagir com você!
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -123,7 +123,7 @@
                         Se preferir, ligue, mande um e-mail ou nos acompanhe nas redes sociais!
                     </div>
                     <div class="">
-                        <p class="m-0 my-lg-3 fw-bold"><a href="mailto:geral@imfcconsulting.com" target="blank" class="nav-link p-0">comercial@erimarc.co.ao</a></p>
+                        <p class="m-0 my-lg-3 fw-bold"><a href="mailto:comercial@erimarc.co.ao" target="blank" class="nav-link p-0">comercial@erimarc.co.ao</a></p>
                     </div>
                 </div>
             </div>

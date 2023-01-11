@@ -69,7 +69,7 @@
         </div>
     </div>
 </div>
-
+<!-- 
 <section class="bg-image-alternate bg-gradient-amc my-5">
     <div class="container text-white py-5">
         <div class="row text-center">
@@ -105,4 +105,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

@@ -50,7 +50,7 @@ session_start();
 						</ul>
 					</div>
 					<div class="cajicua-coluna ms-lg-4 cajicua-search" style="margin-top: -2px;">
-						<i class="fa fa-search small"></i>
+						<i class="fa fa-search small" onclick="cajicuaSearch()"></i>
 					</div>
 				</div>
 			</nav>

@@ -66,6 +66,36 @@ window.addEventListener('scroll', (e)=>{
     // }
 });
 
+function closeAttr() {
+    document.getElementsByTagName('body')[0].removeAttribute('style');
+    document.querySelector('.attr').remove();
+}
+
+function cajicuaSearch(){
+    // let element = document.querySelector('.cajicua-search');
+    let body = document.getElementsByTagName('body')[0];
+
+    let attr = document.createElement('div');
+    attr.setAttribute('style', 'top:0;left:0;right:0;/*padding: 14% 30%;*/bottom:0;margin:0 auto;position:fixed;width:100vw;display: flex;height: 100%;z-index: 999999;background-color: rgb(0 0 0 / 54%);backdrop-filter: blur(3px);');
+    attr.classList.add('attr','active');
+    
+    attr.innerHTML = `
+        <div class="position-absolute" style="top:5%; right:7%">
+            <a href="javascript:closeAttr()" class="fa fa-times fa-2x text-white nav-link" aria-hidden="true"></a>
+        </div>
+        <div class="m-auto p-5 bg-white" style="width:40vw">
+            <form action="" method="post" class="d-flex flex-column align-items-center" name="frm">
+                <label for="search"></label>
+                <input name="search" class="form-control rounded-0 mb-3" placeholder="Escreve aqui o que deseja procurar">
+                <button type="submit" class="btn bg-dark-red mt-3 mt-lg-0 px-lg-4 px-3 rounded-0">Procurar</button>
+            </form>
+        </div>
+    `;
+    
+    body.style.overflowY = "hidden";
+    body.appendChild(attr);
+}
+
 // document.addEventListener("mouseover", ()=>{
 //     countTo(0, 50, '.views-number');
 //     countTo(1000, 1104, '.number', 50);
