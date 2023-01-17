@@ -24,6 +24,8 @@
 }
 html, body {
     font-family: 'Poppins', 'Open sans', 'ubuntu', sans-serif !important;
+    font-size: .9em;
+    
 }
 .cookeis{
     width: 25vw;

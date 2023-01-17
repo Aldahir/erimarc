@@ -89,11 +89,16 @@ function cajicuaSearch(){
                 <input name="search" class="form-control rounded-0 mb-3" placeholder="Escreve aqui o que deseja procurar">
                 <button type="submit" class="btn bg-dark-red mt-3 mt-lg-0 px-lg-4 px-3 rounded-0">Procurar</button>
             </form>
-        </div>
-    `;
+        </div>`;
     
     body.style.overflowY = "hidden";
     body.appendChild(attr);
+
+    document.addEventListener("keydown", (event)=>{
+        if(event.key == 'Escape' || event.key == 27){
+            closeAttr();
+        }
+    });
 }
 
 // document.addEventListener("mouseover", ()=>{

@@ -13,7 +13,6 @@
 <section class="section-clients mb-5" id="clientes">
     <div class="container p-0">
         <div class="align-content-center justify-content-center">
-
             <div class="row p-0">
                 <div class="col-lg-3 col-sm-6 col-md-4">
                     <div class="align-items-center cajicua-container d-flex justify-content-center"><img src="<?php echo URL_BASE ?>assets/img/clientes/sodiam.jpg" alt="" style="width: 250px;" class="d-block rounded-0"></div>
@@ -29,9 +28,9 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center mt-4 flex-direction-row align-self-center align-items-center text-center">
+            <!-- <div class="d-flex justify-content-center mt-4 flex-direction-row align-self-center align-items-center text-center">
                 <a href="<?php echo URL_BASE ?>clientes/" class="btn bg-dark-red p-3 rounded-0"><span>Ver mais</span></a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
