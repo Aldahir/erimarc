@@ -1,7 +1,7 @@
 <div class="container-fluid my-5 pt-lg-4">
     <div class="row text-black text-center">
         <div class="mb-5 col-lg-12 col-sm-12 col-md-12">
-            <h2 class="display-4 fw-bolder" style="letter-spacing: -1px;">O que fazemos</h2>
+            <h2 class="display-6 fs-2 fw-bolder" style="letter-spacing: -1px;">O que fazemos</h2>
             <p class='mt-3 fs'>Soluções direcionadas para o seu negócio físico ou digital.</p>
         </div>
     </div>

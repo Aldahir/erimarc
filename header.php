@@ -12,8 +12,6 @@ session_start();
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link href="http://127.0.0.1/aldair/repositorio/bootstrap/5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-	<!-- <link href="http://127.0.0.1/aldair/repositorio/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 	<link href="<?php echo URL_BASE ?>assets/css/aldair.css" rel="stylesheet">
@@ -24,7 +22,7 @@ session_start();
 </head>
 
 <body>
-	<header class="header">
+	<header class="header" id="top">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="<?php echo URL_BASE ?>">
@@ -39,6 +37,7 @@ session_start();
 						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>" class="nav-link active" aria-current="page">Início</a></li>
 						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>sobre-nos/" class="nav-link">Sobre nós</a></li>
 						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>servicos" class="nav-link">Serviços</a></li>
+						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>clientes" class="nav-link">Clientes</a></li>
 						<li class="nav-item"><a href="<?php echo URL_BASE ?>solutions" class="nav-link">Soluções</a></li>
 						<li class="nav-item ms-lg-3 m-0"><a href="<?php echo URL_BASE ?>contactos" class="nav-link">Contactos</a></li>
 					</ul>

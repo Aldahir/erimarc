@@ -74,6 +74,14 @@
             </svg>
         </a>
     </div>
+
+    <span id="scroll-to-top" class="ti-angle-up scroll-to-top-position-right scroll-to-top-show-default" title="Scroll To Top">
+        <a href="#top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+    </span>
+
+
 </div>
 
 <!-- <script src="http://127.0.0.1/aldair/repositorio/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->

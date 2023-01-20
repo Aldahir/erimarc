@@ -2,15 +2,15 @@
     <div class="container mb-5">
         <div class="row mt-5">
             <div class="col-sm-12 col-md-12 col-lg-12 text-center mb-4">
-                <h2 class="heading-title-main display-4 fw-bolder">Contacte-nos</h2>
+                <h2 class="heading-title-main display-6 fw-normal">Contacte-nos</h2>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <!-- <div class="col-sm-12 col-md-6 col-lg-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1550.573841161178!2d13.48683378272187!3d-8.880310696656927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51fef015c329d7%3A0xf8eb06a384e0eb9d!2sCentralidade%20de%20Cacuaco!5e0!3m2!1spt-PT!2sao!4v1666605308202!5m2!1spt-PT!2sao" width="600" style="max-width: 100%!important" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
-            </div>
+            </div> -->
 
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="m-auto d-flex justify-content-center flex-column align-content-center col-sm-12 col-md-6 col-lg-6">
                 <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="contact7" name="form">
                     <div class="mt-lg-4 u-form-group u-form-name u-label-none">
                         <label for="name-3b9a" class="u-label">Nome completo</label>
