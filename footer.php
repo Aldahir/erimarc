@@ -75,11 +75,21 @@
         </a>
     </div>
 
+<<<<<<< HEAD
     <span id="scroll-to-top" class="position-fixed bottom-2 end-1" title="Scroll To Top">
         <a href="#top" class="bg-dark-red d-flex justify-content-center text-decoration-none">
             <i class="fa-angle-up fas fs-1"></i>
         </a>
     </span>
+=======
+    <span id="scroll-to-top" class="ti-angle-up scroll-to-top-position-right scroll-to-top-show-default" title="Scroll To Top">
+        <a href="#top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+    </span>
+
+
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

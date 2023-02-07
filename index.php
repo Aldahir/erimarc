@@ -19,6 +19,7 @@ switch (isset($_REQUEST['ac'])) {
         include('template/section-main.php');
         include('template/section-servicos.php');
         include('template/section-gallery.php');
+        include('template/section-whatsapp.php');
         include('template/section-clients.php');
         include('template/section-contacts.php');
         //include('template/section-whatsapp.php');

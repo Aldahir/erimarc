@@ -41,6 +41,7 @@ session_start();
 </head>
 
 <body>
+<<<<<<< HEAD
 
 	<header class="header border-bottom border-4 mb-5" id="top">
 		<div class="container-fluid border-bottom">
@@ -78,6 +79,9 @@ session_start();
 				</div>
 			</div>
 		</div>
+=======
+	<header class="header" id="top">
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="<?php echo URL_BASE ?>">

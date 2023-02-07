@@ -5,7 +5,11 @@
                 <div class="heading-default text-center text-lg-start">
                     <h2 class="heading-title-main fs-2 fw-normal">Registamos cada momento para criar história</h2>
                 </div>
+<<<<<<< HEAD
                 <div class="align-items-center align-items-lg-start d-flex flex-column mb-4 mb-lg-0 mb-md-3">
+=======
+                <div class="align-items-center align-items-lg-start d-flex flex-column">
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
                     <p class="fs-5 mt-4 mb-0">
                         Em cada trabalho é mora uma história profissional, vivida e registada a cada passo. Com cada parceiro, cliente e colaborador, acreditamos estar mais próximo do sucesso, pois ele só se torna possível com a história.</p>
                     <p class="fs-5 my-4">

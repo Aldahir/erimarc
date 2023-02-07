@@ -32,7 +32,11 @@
     background-image: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, .6)), url('https://i.pinimg.com/originals/c2/cc/e2/c2cce2e74a52dfe01fa778aab618a897.jpg') ;
 }
 html, body {
+<<<<<<< HEAD
     font-family: 'Source Sans Pro', 'Open sans', 'ubuntu', sans-serif !important;
+=======
+    font-family: 'Poppins', 'Open sans', 'ubuntu', sans-serif !important;
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
     font-size: .9em;
     
 }

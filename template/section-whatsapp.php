@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <div class="mb-0 p-5 section-light section-send-message bg-black bg-opacity-10 mt-lg-5 mt-0">
+=======
+<div class="mb-5 p-5 section-light section-send-message bg-black bg-opacity-10 mt-lg-5 mt-0">
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
     <div class="container">
         <div class="align-items-center row">
             <div class="col-12 col-md-6 col-lg-4 col-sm-12">

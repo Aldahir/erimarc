@@ -2,8 +2,12 @@
     <div class="container mb-5">
         <div class="row mt-5">
             <div class="col-sm-12 col-md-12 col-lg-12 text-center mb-4">
+<<<<<<< HEAD
                 <h2 class="heading-title-main display-6 fw-normal">Alguma dúvida?</h2>
                 <p class="fs-5 mt-4 mb-3">Fale com nossos especialistas em serviços de assistência, manutenção e reparação de UPS</p>
+=======
+                <h2 class="heading-title-main display-6 fw-normal">Contacte-nos</h2>
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
             </div>
 
             <!-- <div class="col-sm-12 col-md-6 col-lg-6">

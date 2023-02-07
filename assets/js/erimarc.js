@@ -101,6 +101,7 @@ function cajicuaSearch(){
             closeAttr();
         }
     });
+<<<<<<< HEAD
 
     // let frm = document.querySelector('form[name="search-frm"]');
    
@@ -127,6 +128,8 @@ function procurar() {
     .then(r=>{
         console.log(r);
     });
+=======
+>>>>>>> 8819e90ffca9fec2782cce16b80dd41d8017d30d
 }
 
 // document.addEventListener("mouseover", ()=>{
