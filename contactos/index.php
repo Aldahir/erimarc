@@ -1,6 +1,6 @@
 <?php include('../header.php') ?>
 
-<section class="bg-image-alternate mb-5 py-5" style="background-image: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, .6)), url( https://dummyimage.com/1080x720/ffeaaa/ffffff);background-position: center;background-size: cover;">
+<section class="bg-image-alternate mb-5 py-5" style="background-image: linear-gradient(rgba(0,0,0,.3), rgba(0, 0, 0, .3)), url(<?php echo URL_BASE ?>/assets/img/pt-contacto-1024x614.jpg);background-position: top right;background-size: cover; background-attachment: fixed;">
     <div class="container">
         <div class="p-5">
             <h2 class="heading-title-main text-white display-4 text-center fw-bolder">Fale connosco</h2>
@@ -22,7 +22,7 @@
                 <div class="d-flex flex-column">
                     <h4 class="fs-6 fw-bolder heading-title-main mb-0 text-start">Endereço</h4>
                     <small class="small">
-                        <a href="" class="nav-link small p-0 text-black-50">Av. 21 de janeiro, Bº Morro Bento, Rua do Instituto Metropolitano, Luanda, Angola</a>
+                        <a href="https://goo.gl/maps/ZgdqN5p7FBDPcgA26" target="_blank" class="nav-link small p-0 text-black-50">Av. 21 de janeiro, Bº Morro Bento, Rua do Instituto Metropolitano, Luanda, Angola</a>
                     </small>
                 </div>
             </div>
@@ -109,7 +109,7 @@
 <div class="container-fluid p-0">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1550.573841161178!2d13.48683378272187!3d-8.880310696656927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51fef015c329d7%3A0xf8eb06a384e0eb9d!2sCentralidade%20de%20Cacuaco!5e0!3m2!1spt-PT!2sao!4v1666605308202!5m2!1spt-PT!2sao" style="width:100%; max-width: 100%!important" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1350.6968152856618!2d13.201560468472495!3d-8.892946358080817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f5390ae5e34f%3A0xa879f9b4bbd67c9d!2sErimarc!5e0!3m2!1spt-PT!2sao!4v1674472993595!5m2!1spt-PT!2sao" style="width:100%; max-width: 100%!important" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>
@@ -130,9 +130,9 @@
 
             <div class="col-md-12 my-5">
                 <div class="align-items-center col-lg-12 col-md-12 col-sm-12 d-flex gap-3 justify-content-center text-center">
-                    <a href="" class="nav-link text-dark-red display-4 fab fa-facebook"></a>
-                    <a href="" class="nav-link text-dark-red display-4 fab fa-instagram"></a>
-                    <a href="" class="nav-link text-dark-red display-4 fab fa-linkedin"></a>
+                    <a href="https://www.facebook.com/erimarc.ao" target="_blank" class="nav-link text-dark-red display-4 fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/erimarc.ao" target="_blank" class="nav-link text-dark-red display-4 fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/erimarc-angola/" target="_blank" class="nav-link text-dark-red display-4 fab fa-linkedin"></a>
                 </div>
             </div>
         </div>

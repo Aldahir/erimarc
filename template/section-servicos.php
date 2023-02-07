@@ -9,8 +9,8 @@
     <div class="row text-black">
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
-            <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <div class="text-center" style="height: fit-content;">
+            <div class="align-items-end d-flex" style="height: 350px;background-image: linear-gradient(rgba(0,0,0,.2), rgba(0, 0, 0, .6)), url(<?php echo URL_BASE ?>assets/img/form-bateria_1.jpg);background-position: center;background-size: cover;">
+                <div class="text-center text-white" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Fornecimento / Instalação de UPS</h2>
                     </div>
@@ -23,8 +23,8 @@
         </div>
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
-            <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <div class="text-center" style="height: fit-content;">
+            <div class="align-items-end d-flex" style="height: 350px;background-image: linear-gradient(rgba(0,0,0,.2), rgba(0, 0, 0, .6)), url(<?php echo URL_BASE ?>assets/img/manutencao_de_ups_2.jpg);background-position: center;background-size: cover;">
+                <div class="text-center text-white" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Manutenção de UPS</h2>
                     </div>
@@ -37,8 +37,8 @@
         </div>
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
-            <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <div class="text-center" style="height: fit-content;">
+            <div class="align-items-end d-flex" style="height: 350px;background-image: linear-gradient(rgba(0,0,0,.2), rgba(0, 0, 0, .6)), url(<?php echo URL_BASE ?>assets/img/monitoramento_de_baterias_1.jpg);background-position: center;background-size: cover;">
+                <div class="text-center text-white" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Monitoramento de baterias</h2>
                     </div>
@@ -51,8 +51,8 @@
         </div>
 
         <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xs-4 services">
-            <div class="align-items-end d-flex" style="height: 350px;background-image: url(https://dummyimage.com/240x800/ffeaaa/ffffff);background-position: center;background-size: cover;">
-                <div class="text-center" style="height: fit-content;">
+            <div class="align-items-end d-flex" style="height: 350px;background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0, 0, 0, .6)), url(<?php echo URL_BASE ?>assets/img/serv-baterias.jpg);background-position: center;background-size: cover;">
+                <div class="text-center text-white" style="height: fit-content;">
                     <div class="pb-3 title">
                         <h2 class="heading-title fs-4 fw-bolder mx-3" style="letter-spacing: -1px;">Serviço de baterias</h2>
                     </div>

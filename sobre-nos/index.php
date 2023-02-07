@@ -1,6 +1,6 @@
 <?php include('../header.php') ?>
 
-<section class="bg-image-alternate mb-5 py-5" style="background-image: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, .6)), url( https://dummyimage.com/1080x720/ffeaaa/ffffff);background-position: center;background-size: cover;">
+<section class="bg-image-alternate mb-5 py-5" style="background-image: linear-gradient(rgba(0,0,0,.3), rgba(0, 0, 0, .3)), url(<?php echo URL_BASE ?>/assets/img/aboutus/image00.jpg);background-position: top right;background-size: cover;">
     <div class="container">
         <div class="p-5">
             <h2 class="heading-title-main text-white display-4 text-center fw-bolder">Quem somos</h2>
@@ -12,13 +12,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-sm-12 col-md-4">
-                <img src="https://dummyimage.com/600x450/cb9a00/000000" alt="" class="img-fluid">
+                <img src="<?php echo URL_BASE ?>/assets/img/aboutus/aboutus.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-lg-7 col-sm-12 col-md-8">
-                <p class="mb-3">Empresa de direito angolano constituída por capital 100% nacional com a sede social em Luanda e que atua na área da Assistência Técnica e Prestação de Serviços em Energia Estabilizada (UPS).</p>
-                <p class="mb-3">Fornecemos um conjunto integrado de soluções, incluindo fornecimento, manutenções corretivas e preventivas, startups e fornecimento e substituição diversos componentes de UPS's.</p>
-                <p class="mb-3">Possuímos uma equipa técnica qualificada e com vasta experiência, organizada numa estrutura flexível e com uma capacidade de resposta rápida e eficiente.</p>
-                <p class="mb-3">Somos uma empresa cuja filosofia assenta numa relação profunda com cada cliente, por forma a entender as suas reais necessidades e apoiá-lo na procura de soluções que melhor se adequem à evolução do seu negócio ou actividades.</p>
+                <h5 class="fs-3 fw-bolder"><?php echo title ?></h5>
+                <p class="fs-5 mb-3 ">É uma empresa de direito angolano constituída por capital 100% nacional com a sede social em Luanda e que atua na área da Assistência Técnica e Prestação de Serviços em Energia Estabilizada (UPS).</p>
+                <p class="fs-5 mb-3 ">Fornecemos um conjunto integrado de soluções, incluindo fornecimento, manutenções corretivas e preventivas, startups e fornecimento e substituição diversos componentes de UPS's.</p>
+                <p class="fs-5 mb-3 ">Possuímos uma equipa técnica qualificada e com vasta experiência, organizada numa estrutura flexível e com uma capacidade de resposta rápida e eficiente.</p>
+                <p class="fs-5 mb-3 ">Somos uma empresa cuja filosofia assenta numa relação profunda com cada cliente, por forma a entender as suas reais necessidades e apoiá-lo na procura de soluções que melhor se adequem à evolução do seu negócio ou actividades.</p>
             </div>
         </div>
     </div>
@@ -53,25 +54,25 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-sm-12 col-md-8">
-                <p class="mb-3">A Erimarc está fortemente empenhada na implementação de soluções que contribuam para o sucesso dos seus Clientes, pretendendo tornar se na empresa de referência para a concepção, desenho, fornecimento e gestão de soluções de telecomunicações empresariais em Angola.</p>
+                <p class="fs-4 mb-3 ">A Erimarc está fortemente empenhada na implementação de soluções que contribuam para o sucesso dos seus Clientes, pretendendo tornar se na empresa de referência para a concepção, desenho, fornecimento e gestão de soluções de telecomunicações empresariais em Angola.</p>
             </div>
         </div>
         <div class="row my-5">
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center set">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center set mt-lg-0 mt-md-0 mt-3">
                 <div class="align-items-center bg-dark-red text-white d-flex flex-column justify-content-center rounded-circle p-3" style="width: 250px;height: 250px;">
                     <img src="https://www.kehua.com/SdwlUploads/Ab/t_about04.png" alt="Tempo de mercado" style="filter:invert(1); width: min-content;">
                     <h2 class="heading-title-main fs-3 fw-bolder text-center"><?php echo date("Y") - date("2015") . " anos" ?></h2>
                     <p class="text-center small">Que fornececmos as melhores marcas de UPS em todo mundo.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center set">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center set mt-lg-0 mt-md-0 mt-3">
                 <div class="align-items-center bg-dark-red text-white d-flex flex-column justify-content-center rounded-circle p-3" style="width: 250px;height: 250px;">
                     <img src="https://www.kehua.com/SdwlUploads/Ab/t_about06.png" alt="Clientes" style="filter:invert(1); width: min-content;">
                     <h2 class="heading-title-main fs-3 fw-bolder text-center">+25 clientes</h2>
                     <p class="text-center small">Temos a honra de trabalhar com as maiores empresas do país.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center set">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center set mt-lg-0 mt-md-0 mt-3">
                 <div class="align-items-center bg-dark-red text-white d-flex flex-column justify-content-center rounded-circle p-3" style="width: 250px;height: 250px;">
                     <img src="https://www.kehua.com/SdwlUploads/Ab/t_about05.png" alt="Number One" style="filter:invert(1); width: min-content;">
                     <h2 class="heading-title-main fs-3 fw-bolder text-center">Nº 1</h2>

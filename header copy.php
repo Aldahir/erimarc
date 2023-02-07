@@ -41,47 +41,11 @@ session_start();
 </head>
 
 <body>
-
-	<header class="header border-bottom border-4 mb-5" id="top">
-		<div class="container-fluid border-bottom">
-			<div class="container">
-				<div class="d-flex justify-content-between menu-topo" id="topo">
-					<ul class="align-items-center text-gray flex-row navbar-nav text-uppercase">
-						<li class="nav-item"><a style="font-size: 0.85em !important;font-weight: 600 !important;letter-spacing:0!important" href="<?php echo URL_BASE ?>sobre-nos" class="nav-link p-0 pt-1 text-gray">Sobre nós</a></li>
-						<li class="fw-light mx-3 separator">|</li>
-						<li class="nav-item"><a style="font-size: 0.85em !important;font-weight: 600 !important;letter-spacing:0!important" href="<?php echo URL_BASE ?>solutions" class="nav-link p-0 pt-1 text-gray">Soluções</a></li>
-						<li class="fw-light mx-3 separator">|</li>
-						<li class="nav-item"><a style="font-size: 0.85em !important;font-weight: 600 !important;letter-spacing:0!important" href="<?php echo URL_BASE ?>contactos" class="nav-link p-0 pt-1 text-gray">Contactos</a></li>
-						<li class="fw-light mx-3 separator">|</li>
-					</ul>
-					<div class="menu-topo" id="contactos">
-						<div class="contacts d-flex">
-							<div class="contact-email" style="font-size: 0.85em !important;font-weight: 600 !important;letter-spacing:0!important">
-								<a href="mailto:comercial@erimarc.co.ao" class="d-flex flex-row nav-link align-items-center text-gray">
-									<div class="bg-light rounded-0 p-2 me-2">
-										<i class="fa fa-envelope text-dark"></i>
-									</div>
-									comercial@erimarc.co.ao
-								</a>
-							</div>
-
-							<div class="contact-phone" style="font-size: 0.85em !important;font-weight: 600 !important;letter-spacing:0!important">
-								<a href="tel:+244928085691" class="d-flex flex-row nav-link align-items-center text-gray">
-									<div class="bg-light rounded-0 p-2 me-2 ">
-										<i style="transform: rotate(90deg);" class="fa fa-phone text-dark"></i>
-									</div>
-									(+244) 928 085 691
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<header class="header" id="top">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="<?php echo URL_BASE ?>">
-					<img src="<?php echo URL_BASE ?>assets/img/logo.svg" alt="Logotipo da Erimarco">
+					<img src="<?php echo URL_BASE ?>assets/img/logo.svg" alt="Logotipo da IMFC Consulting">
 				</a>
 				<button class="me-4 me-lg-0 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -89,21 +53,21 @@ session_start();
 
 				<div class="collapse justify-content-lg-end navbar-collapse" id="menu">
 					<ul class="navbar-nav">
-						<li style="font-weight:600;" class="text-uppercase nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>" class="text-gray nav-link active" aria-current="page">Início</a></li>
-						<li style="font-weight:600;" class="text-uppercase nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>sobre-nos/" class="text-gray nav-link">Sobre nós</a></li>
-						<li style="font-weight:600;" class="text-uppercase nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>servicos" class="text-gray nav-link">Serviços</a></li>
-						<li style="font-weight:600;" class="text-uppercase nav-item"><a href="<?php echo URL_BASE ?>solutions" class="text-gray nav-link">Soluções</a></li>
-						<li style="font-weight:600;" class="text-uppercase nav-item ms-lg-3 m-0"><a href="<?php echo URL_BASE ?>contactos" class="text-gray nav-link">Contactos</a></li>
+						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>" class="nav-link active" aria-current="page">Início</a></li>
+						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>sobre-nos/" class="nav-link">Sobre nós</a></li>
+						<li class="nav-item me-lg-3 m-0"><a href="<?php echo URL_BASE ?>servicos" class="nav-link">Serviços</a></li>
+						<li class="nav-item"><a href="<?php echo URL_BASE ?>solutions" class="nav-link">Soluções</a></li>
+						<li class="nav-item ms-lg-3 m-0"><a href="<?php echo URL_BASE ?>contactos" class="nav-link">Contactos</a></li>
 					</ul>
-					<div class="cajicua-coluna ms-lg-4 cajicua-search" style="margin-top: -2px;">
-						<i class="fa fa-search small" onclick="cajicuaSearch()"></i>
-					</div>
 					<div class="cajicua-coluna ms-lg-4 dropdown cajicua-search" style="margin-top: -2px;">
 						<button class="fa fa-language btn dropdown-toggle" type="button" id="btn-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Escolha o idioma">&nbsp;</button>
 						<ul class="dropdown-menu" aria-labelledby="btn-toggle">
 							<li><a href="" class="dropdown-item active">Português</a></li>
 							<!-- <li><a href="" class="dropdown-item">English</a></li> -->
 						</ul>
+					</div>
+					<div class="cajicua-coluna ms-lg-4 cajicua-search" style="margin-top: -2px;">
+						<i class="fa fa-search small" onclick="cajicuaSearch()"></i>
 					</div>
 				</div>
 			</nav>

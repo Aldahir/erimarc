@@ -1,46 +1,46 @@
 <div id="slide-menu" class="carousel slide" data-bs-ride="carousel">
-  <!-- <div class="carousel-indicators">
+  <div class="carousel-indicators">
     <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="3" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="4" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="5" aria-label="Slide 3"></button>
-  </div> -->
+  </div>
   <div class="carousel-inner carousel-fade">
     <div class="carousel-item active">
-      <div class="carousel-caption d-md-block d-none text-start">
-        <h3 class="display-4 fw-bolder heading-title">Higienização e Limpeza total da UPS</h3>
-        <p class="fs-5">A higienização contribui para garantia da vida útil do seu equipamento.<br>Solicite uma visita periodica de constatação para avaliar o estado a sua UPS.</p>
+      <div class="carousel-caption d-md-block d-none text-start" style="bottom: 190px;">
+        <h3 class="display-3 fw-bolder heading-title">Higienização e Limpeza total da UPS</h3>
+        <p class="fs-4">A higienização contribui para garantia da vida útil do seu equipamento.<br>Solicite uma visita periodica de constatação para avaliar o estado a sua UPS.</p>
 
         <div class="controls d-flex justify-content-center justify-content-lg-start mt-5">
           <a href="<?php echo URL_BASE ?>contactos" class="btn bg-dark-red rounded-0 p-3">Fale connosco</a>
         </div>
       </div>
-      <img src="<?php echo URL_BASE ?>assets/img/solucoes/image-02.jpg" loading="lazy" class="d-block w-100" alt="dummyimage 1080p ff0000">
+      <img src="<?php echo URL_BASE ?>assets/img/slide/limpeza.jpg" loading="lazy" class="d-block w-100" alt="dummyimage 1080p ff0000">
     </div>
 
     <div class="carousel-item">
-      <div class="carousel-caption d-md-block d-none text-start">
-        <h3 class="display-4 fw-bolder heading-title">Substituição de baterias e outros componentes</h3>
-        <p class="fs-5">Forncemos e substituimos componentes sujeitos a desgates,<br>
+      <div class="carousel-caption d-md-block d-none text-start" style="bottom: 190px;">
+        <h3 class="display-3 fw-bolder heading-title">Substituição de baterias e outros componentes</h3>
+        <p class="fs-4">Forncemos e substituimos componentes sujeitos a desgates,<br>
           como baterias, ventiladores, condensadores, relés entre outros.</p>
         <div class="controls d-flex justify-content-center justify-content-lg-start mt-5">
           <a href="hhttps://wa.me/244995736815" target="_blank" class="btn bg-dark-red rounded-0 p-3">Peça um orçamento</a>
         </div>
       </div>
-      <img src="<?php echo URL_BASE ?>assets/img/servicos/image-01.jpg" loading="lazy" class="d-block w-100" alt="dummyimage 1080p ff0000">
+      <img src="<?php echo URL_BASE ?>assets/img/slide/subs-bateria.jpg" loading="lazy" class="d-block w-100" alt="dummyimage 1080p ff0000">
     </div>
 
     <div class="carousel-item ">
-      <div class="carousel-caption d-md-block d-none text-start">
-        <h3 class="display-4 fw-bolder heading-title">Fornecimento de baterias</h3>
-        <p class="fs-5">Fornecimento e instalação de baterias para UPS's </p>
+      <div class="carousel-caption d-md-block d-none text-start" style="bottom: 190px;">
+        <h3 class="display-3 fw-bolder heading-title">Fornecimento de baterias</h3>
+        <p class="fs-4">Fornecimento e instalação de baterias para UPS's </p>
         <div class="controls d-flex justify-content-center justify-content-lg-start mt-5">
           <a href="hhttps://wa.me/244995736815" target="_blank" class="btn bg-dark-red rounded-0 p-3">Peça um orçamento</a>
         </div>
       </div>
-      <img src="<?php echo URL_BASE ?>assets/img/baterias_sa.jpg" loading="lazy" class="d-block w-100" alt="dummyimage 1080p ff0000">
+      <img src="<?php echo URL_BASE ?>assets/img/slide/slide3.jpg" loading="lazy" class="d-block w-100" alt="dummyimage 1080p ff0000">
     </div>
 
     <div class="carousel-item">

@@ -1,18 +1,18 @@
-<div id="footer" class="fs-5 bg-dark bg-opacity-75 pt-5">
+<div id="footer" class="bg-dark pt-5">
     <div class="container mb-4">
         <div class="row text-center text-lg-start">
             <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="pb-3 border-bottom">
-                <a class="text-white text-decoration-none fw-bold" href="<?php echo URL_BASE ?>">
-                <!-- <a class="footer_logo text-white text-decoration-none fw-bold" href="<?php echo URL_BASE ?>"> -->
-                    <?php echo title ?> <!-- <img src="<?php echo URL_BASE ?>assets/img/logo_white.svg" alt="footerLogo" class="img-fluid"> -->
+                <a class="footer_logo" href="<?php echo URL_BASE ?>">
+                    <img src="<?php echo URL_BASE ?>assets/img/logo_white.svg" alt="footerLogo" class="img-fluid">
                 </a>
-            </div>
+                <!-- <form id="EmForm" method="get" action="">
+                    <div class="f01_lSerach"><input type="text" name="em" id="em" placeholder="Email for Newsletter"><a href="javascript:;" class="submit_fe">Subscribe</a></div><input type="hidden" name="token" value="67f1f88b501680d3614c0d4da79ab248_30d462355d9ff52aad9a2b6706f2e647">
+                </form> -->
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
-                    <a href="javascript:;" class="fw-bold ps-3 text-white text-decoration-none title">ABOUT US</a>
+                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-decoration-none title">ABOUT US</a>
                     <a href="" class="nav-link text-white">Sobre nós</a>
                     <a href="<?php echo URL_BASE ?>servicos" class="nav-link text-white">Serviços</a>
                     <a href="" class="nav-link text-white">Soluções</a>
@@ -21,7 +21,7 @@
 
             <div class="col-lg-3 col-md-12 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
-                    <a href="javascript:;" class="fw-bold ps-3 text-white text-uppercase text-decoration-none title">Contactos</a>
+                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Contactos</a>
                     <a href="" class="nav-link text-white">Av. 21 de janeiro, Bº Morro Bento, Rua do Instituto Metropolitano, Luanda, Angola</a>
                     <a href="tel:+244928085691" class="nav-link text-white"><i class="fa fa-phone" style="transform:rotate(90deg);"></i>&nbsp; (+244) 928 085 691</a>
                     <a href="mailto:comercial@erimarc.co.ao" class="nav-link text-white"><i class="fa fa-envelope"></i></i>&nbsp; comercial@erimarc.co.ao</a>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 mt-lg-2 mt-sm-4 small">
                 <li class="list-unstyled">
-                    <a href="javascript:;" class="fw-bold ps-3 text-white text-uppercase text-decoration-none title">Horários de atendimento</a>
+                    <a href="javascript:;" class="fw-bold ps-3 text-dark-red text-uppercase text-decoration-none title">Horários de atendimento</a>
                     <a class="nav-link text-white">Segunda à Sexta-feira<br> 08:00-17:00</a>
                     <!-- <a class="nav-link text-white">Sábado e feriados<br> 08:00 - 12:00</a> -->
                 </li>
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="container-fluid border-top border-secondary bg-dark">
+    <div class="container-fluid border-top border-secondary">
         <div class="mt-4 pb-4 row">
             <div class="col-lg-6 col-sm-12 col-md-12">
                 <p style="font-size:.7rem" class="m-0 small text-center text-lg-start text-secondary">Copyright © <?php echo date("Y") ?> - <?php echo title ?></p>
@@ -75,9 +75,9 @@
         </a>
     </div>
 
-    <span id="scroll-to-top" class="position-fixed bottom-2 end-1" title="Scroll To Top">
-        <a href="#top" class="bg-dark-red d-flex justify-content-center text-decoration-none">
-            <i class="fa-angle-up fas fs-1"></i>
+    <span id="scroll-to-top" class="ti-angle-up scroll-to-top-position-right scroll-to-top-show-default" title="Scroll To Top">
+        <a href="#top">
+            <i class="fas fa-angle-up"></i>
         </a>
     </span>
 </div>

@@ -9,55 +9,66 @@
 <div class="wrapper m-5">
     <div class="container">
         <div class="align-content-center justify-content-center row">
-            <div id="clientes-slide" class="col-md-8">
-                <div class="d-flex">
-                    <div class="active">
+            <div id="clientes-slide" class="carousel slide" data-bs-ride="carousel">
+                <button type="button" data-bs-target="#clientes-slide" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
                         <div class="justify-content-center row">
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/chitotolo.jpg" alt="Logotipo da Sociedade Mineira do Chitotolo" srcset="<?php echo URL_BASE ?>assets/img/clientes/chitotolo.jpg 250w" style="width: 250px;" class="d-block"></div>
-
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/sistec.jpg" style="width: 250px;" alt="Sistec Angola" srcset="<?php echo URL_BASE ?>assets/img/clientes/sistec.jpg 250w" class="d-block"></div>
-
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/sodiam.jpg" alt="Logotipo da Sodiam" srcset="<?php echo URL_BASE ?>assets/img/clientes/sodiam.jpg 250w" style="width: 250px;" class="d-block"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="justify-content-center row">
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/noble-group.jpg" alt="Logotipo da Noble Group" srcset="<?php echo URL_BASE ?>assets/img/clientes/noble-group.jpg 250w" style="width: 250px;" class="d-block"></div>
-
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/inacom.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/inacom.jpg 250w" style="width: 250px;" class="d-block"></div>
-
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/angola-prev.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/angola-prev.jpg 250w" style="width: 250px;" class="d-block"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="justify-content-center row">
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/bollore.jpg" alt="Logotipo da Noble Group" srcset="<?php echo URL_BASE ?>assets/img/clientes/bollore.jpg 250w" style="width: 250px;" class="d-block"></div>
-
-                            <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/vtb.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/vtb.jpg 250w" style="width: 250px;" class="d-block"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 p-5">
-                <div class="row text-center justify-content-center align-items-center">
-                    <div class="col-sm-8">
-                        <h3 class="mt-5 title display-6 fw-normal">Palavra dos nossos clientes</h3>
-                        <p class="my-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cupiditate error voluptatum vel dolore libero asperiores reiciendis iure a, nisi eligendi, ipsa aliquid exercitationem. Numquam aliquam pariatur aut dolores optio.</p>
-
-                        <div class="d-flex flex-column align-items-center">
-                            <div class="image">
-                                <img src="https://dummyimage.com/1:1x60/0edfff" alt="" class="border border-2 img-fluid rounded-circle">
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/chitotolo.jpg" alt="Logotipo da Sociedade Mineira do Chitotolo" srcset="<?php echo URL_BASE ?>assets/img/clientes/chitotolo.jpg 1233w" class="d-block w-100"></div>
                             </div>
-                            <div class="fs-5 my-2 fw-bold">Lohn Doe</div>
-                            <div class="fs-6 fw-normal text-primary">CEO MarkSeller</div>
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/sistec.jpg" alt="Sistec Angola" srcset="<?php echo URL_BASE ?>assets/img/clientes/sistec.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/sodiam.jpg" alt="Logotipo da Sodiam" srcset="<?php echo URL_BASE ?>assets/img/clientes/sodiam.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="justify-content-center row">
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/noble-group.jpg" alt="Logotipo da Noble Group" srcset="<?php echo URL_BASE ?>assets/img/clientes/noble-group.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/inacom.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/inacom.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/angola-prev.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/angola-prev.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="justify-content-center row">
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/bollore.jpg" alt="Logotipo da Noble Group" srcset="<?php echo URL_BASE ?>assets/img/clientes/bollore.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/vtb.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/vtb.jpg 1233w" class="d-block w-100"></div>
+                            </div>
+                            <!-- <div class="col-3 col-lg-3 col-sm-3 col-md-3">
+                                <div class="cajicua-container"><img src="<?php echo URL_BASE ?>assets/img/clientes/angola-prev.jpg" alt="Logotipo da Inacom" srcset="<?php echo URL_BASE ?>assets/img/clientes/angola-prev.jpg 1233w" class="d-block w-100"></div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
+                <button type="button" data-bs-target="#clientes-slide" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
+            <!-- <div class="d-flex justify-content-center mt-4 flex-direction-row align-self-center align-items-center mt-5 text-center" style="margin:80px 0">
+                <a class="btn btn-animation btn-primary bg-dark-red text-white fw-bold fw-normal py-3 rounded-0" href="https://api.whatsapp.com/send?phone=244926561603">
+                    <i class="fab fa-whatsapp"></i>
+                    <span class="ms-1">Fale pelo Whatsapp</span>
+                </a>
+            </div> -->
         </div>
     </div>
-</div>
 </div>
 
 <?php

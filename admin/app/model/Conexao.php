@@ -5,7 +5,21 @@ class Conexao
     private $conexao;
     private $username = "root";
     private $password = "root";
-    private $dbname = "test";
+    private $dbname;
+
+    /**
+     * For programmable Tables
+     */
+
+
+
+    public function setDatabase(string $value = "test"){
+        $this->dbname = $value;
+    }
+
+    public function getDatabase(){
+        return $this->dbname;
+    } 
 
     public function __construct()
     {

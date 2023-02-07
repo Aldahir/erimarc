@@ -1,3 +1,4 @@
+const path = window.location.protocol + "//"+window.location.hostname;
 function countTo(from = 0, to, element, interval = 100){
     let step = to > from ? 1 : -1;
     
@@ -28,7 +29,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
 
     d.addEventListener('click', function(e){
-        fetch('/erimarc/?ac=setCookie', {
+        fetch('https://erimarc.co.ao/teste/?ac=setCookie', {
             headers:{
                 "Content-Type":"application/json; charset=utf-8",
                 "accept":"application/json",
@@ -83,11 +84,12 @@ function cajicuaSearch(){
         <div class="position-absolute" style="top:5%; right:7%">
             <a href="javascript:closeAttr()" class="fa fa-times fa-2x text-white nav-link" aria-hidden="true"></a>
         </div>
-        <div class="m-auto p-5 bg-white" style="width:40vw">
-            <form action="" method="post" class="d-flex flex-column align-items-center" name="frm">
-                <label for="search"></label>
-                <input name="search" class="form-control rounded-0 mb-3" placeholder="Escreve aqui o que deseja procurar">
-                <button type="submit" class="btn bg-dark-red mt-3 mt-lg-0 px-lg-4 px-3 rounded-0">Procurar</button>
+        <div class="m-auto p-5 bg-white search-container" style="width:40vw">
+            <form action="${path}/procurar/index.php" method="post" class="d-flex flex-column align-items-center" name="search-frm">
+                <label for="search" class="w-100">
+                    <input name="search" class="form-control rounded-0 mb-3" placeholder="Escreve aqui o que deseja procurar">
+                </label>
+                <button type="submit" id="procurar" class="btn bg-dark-red mt-3 mt-lg-0 px-lg-4 px-3 rounded-0">Procurar</button>
             </form>
         </div>`;
     
@@ -98,6 +100,32 @@ function cajicuaSearch(){
         if(event.key == 'Escape' || event.key == 27){
             closeAttr();
         }
+    });
+
+    // let frm = document.querySelector('form[name="search-frm"]');
+   
+    // frm.onsubmit = (x)=>{
+    //     procurar();
+    //     frm.reset();
+    //     x.preventDefault();
+    //     return 0;
+    // };
+}
+
+function procurar() {
+    fetch('http://127.0.0.1/erimarc/?ac=procurar', {
+        headers: {
+            "Content-Type": "application/json; charset=utf-8",
+            "accept": "application/json",
+        },
+        method: "post",
+        body: JSON.stringify({
+            "search": document.querySelector('input[name="search"]').value
+        })
+    }).
+    then(r=>r.json())
+    .then(r=>{
+        console.log(r);
     });
 }
 
